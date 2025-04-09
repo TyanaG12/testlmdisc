@@ -1,0 +1,58 @@
+body{
+	background: rgb(222, 235, 247);
+}
+
+header{
+	background: white;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+header img{
+	width: 50px;
+	padding-top: 15px;
+	padding-left: 30px;
+}
+
+header nav{
+	float: right;
+	padding-right: 100px;
+}
+
+header nav ul a{
+	text-decoration: none;
+}
+header nav ul{
+	list-style: none; /*Retire le tiret*/
+	display: flex; /* Converti une liste verticale en horizontale*/
+	gap: 15px;
+}
+
+header nav ul li a:hover{
+	color:#f39c12;
+	font-size: 18px;
+	text-decoration: overline;
+}
+
+#corps{
+	height: 100%;
+	background: white;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#mavideo{
+	padding-left: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+#mavideo img{
+	width: 25%;
+}
+
+#formulaire{
+	float: right;
+	margin-top: -200px;
+	padding-right: 100px;
+}
